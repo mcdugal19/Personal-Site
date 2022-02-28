@@ -1,0 +1,184 @@
+
+/*
+
+body{
+    height: 100vh;
+    background-image: url("images/newZealand.jpg");
+}
+*/
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    margin: 5px;
+    padding: 0;
+}
+
+/* Header*/
+
+nav{
+    padding: 2%;
+    width:96%;
+    height: 10%;
+    margin-top: 2%;
+    text-decoration: none; 
+    background-color: rgb(172, 201, 176); 
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+nav a{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: .25rem;
+    }
+
+.home{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(2, 13, 24);
+    border-radius: 10%;
+}
+
+.about{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(2, 13, 24);
+    border-radius: 10%;
+}
+
+.portfolio{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: blueviolet;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(2, 13, 24);
+    border-radius: 10%;
+}
+
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(212, 212, 226);
+}
+
+button:hover {
+    background-color: rgb(119, 175, 45);
+    text-decoration: underline;
+}
+/* Main */
+main{
+    width:100%;
+    background-image: url("images/newZealand.jpg");
+    background-size: cover;
+    /*height: 90%;*/
+
+    font-size:large;
+    color:rgb(2, 13, 24);
+    border: 5rem;
+    border-color: rgb(154, 168, 172);
+   
+}
+
+.img{
+   display: flex;
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 15rem;
+    max-width: 15rem;
+    margin: .25rem;
+    padding: 0;
+    background-color: rgb(234, 240, 243);
+  }
+
+.card h3{
+    background-color: lightblue;
+    padding: 8px;
+    font-size: larger;
+  }
+
+.card p{
+    margin-top: 8px;
+    padding: 8px;
+    font-size:larger;
+  }
+
+h1{
+    font-size: 3rem;
+    padding: 1% 5%;
+    margin-left: 5%;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding: 0 5%;
+    margin-left: 5%;
+}
+
+p{
+    font-size: large;
+    padding: 0 5%;
+    margin-left: 5%;
+}
+
+.h1{
+   display: flex;
+    
+}
+
+/* Footer*/
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px black;
+    padding: 2%;
+    width:96%;
+    height: 10%;
+    text-decoration: none; 
+    background-color: rgb(172, 201, 176);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 1rem;
+    
+}
+
+.email{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 2%;
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(6, 29, 59);
+    border-radius: 1%;
+}

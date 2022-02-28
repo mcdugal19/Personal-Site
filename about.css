@@ -1,0 +1,148 @@
+html{
+    background-color: #45858c;
+    }
+
+    /* Header */
+nav{
+    padding: 2%;
+    width:96%;
+    height: 10%;
+    margin-top: 2%;
+    background-color: #a0d9d9;  
+    text-decoration: none;  
+    border: solid 1px black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end; 
+}
+
+.home{ 
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color:  #bf9765;
+    border-radius: 10%;
+}
+
+.about{ 
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color:  #bf9765;
+    border-radius: 10%;
+}
+
+.portfolio{ 
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: #bf9765;
+    border-radius: 10%;
+}
+
+button:hover {
+    background-color: #45858c;
+    text-decoration: underline;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+/* Main */
+
+main{
+    width:96%;
+    max-height: 80%;
+    min-height: 80%;
+    font-size:large;
+    color:#d9c589;
+    border: 5rem;
+    border-color: rgb(168, 172, 154);
+    display: flex;
+    align-items: flex-start;
+    flex: 1;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+h1{
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d92b04;
+    padding: 0% 5%;
+    margin-left: 5%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d92b04;
+    font-size: 1.5rem;
+    padding: 0 5%;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #d92b04;
+    font-size: 1.5rem;
+    padding: 0 5%;
+    margin-left: 5%;
+    margin-bottom: 1rem;
+}
+
+p{
+    font-size: large;
+    padding: 0 5%;
+    margin-left: 5%;
+    margin-top: 0;
+}
+
+.h1{
+    display:flex;
+    
+}
+
+/* Footer*/
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px black;
+    padding: 2%;
+    width:96%;
+    height: 10%;
+    text-decoration: none; 
+    background-color: #a0d9d9;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.email{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 2%;
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: #b9834f;
+    border-radius: 1%;
+}

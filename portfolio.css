@@ -1,0 +1,156 @@
+html{
+    background-color: rgba(233, 186, 99, 0.808);
+    }
+
+    /* Header*/
+header{
+    width:96%;
+}
+
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px black;
+    padding: 2%;
+    width:96%;
+    height: 10%;
+    margin: 2%;
+    text-decoration: none; 
+    background-color: rgb(214, 216, 181);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.home{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(6, 29, 59);
+    border-radius: 10%;
+}
+
+.about{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(6, 29, 59);
+    border-radius: 10%;
+}
+
+.portfolio{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 2%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(6, 29, 59);
+    border-radius: 10%;
+}
+a{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+button:hover {
+    background-color: rgb(119, 175, 45);
+    text-decoration: underline;
+}
+
+/* Body*/
+
+body{
+    width:96%;
+    height: 80%;
+    font-size:large;
+    color:rgb(6, 29, 59);
+    border: 5rem;
+    border-color: rgb(168, 172, 154);
+    
+}
+
+h1{
+    font-size: 3rem;
+    padding: 1% 5%;
+    margin-left: 5%;
+}
+
+h2{
+    font-size: 1.5rem;
+    padding: 0 5%;
+    margin-left: 5%;
+}
+
+h3{
+    font-size: 1.5rem;
+    padding: 0 5%;
+    margin-left: 5%;
+}
+
+p{
+    font-size: large;
+    padding: 0 5%;
+    margin-left: 5%;
+}
+
+.project{ 
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 5%;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(6, 29, 59);
+    border-radius: 2%;
+    min-width: 88%;
+    max-width: 88%;
+    min-height: 350px;
+    
+}
+
+/* Footer*/
+
+footer{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    border: solid 1px black;
+    padding: 2%;
+    width:96%;
+    height: 10%;
+    margin-top: 2%;
+    text-decoration: none; 
+    background-color: rgb(214, 216, 181);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.email{
+    font-family:Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px;
+    margin: 2%;
+    border: solid 1px black;
+    box-shadow: 1px 1px 1px 1px rgb(5, 5, 5);
+    font-size: 24px; 
+    text-decoration: none;
+    background-color: rgb(6, 29, 59);
+    border-radius: 1%;
+}
