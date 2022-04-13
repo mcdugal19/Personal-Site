@@ -1,3 +1,15 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Roboto";
+}
+
+
+
+
+
+
 
 /*
 
@@ -6,7 +18,7 @@ body{
     background-image: url("images/newZealand.jpg");
 }
 */
-body{
+/* body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -16,7 +28,7 @@ body{
 }
 
 /* Header*/
-
+/* 
 nav{
     padding: 2%;
     width:96%;
@@ -88,13 +100,13 @@ button:hover {
     text-decoration: underline;
 }
 /* Main */
-main{
+/* main{
     width:100%;
     background-image: url("images/newZealand.jpg");
     background-size: cover;
     /*height: 90%;*/
 
-    font-size:large;
+    /* font-size:large;
     color:rgb(2, 13, 24);
     border: 5rem;
     border-color: rgb(154, 168, 172);
@@ -153,7 +165,7 @@ p{
 }
 
 /* Footer*/
-footer{
+/* footer{
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     border: solid 1px black;
@@ -181,4 +193,4 @@ footer{
     text-decoration: none;
     background-color: rgb(6, 29, 59);
     border-radius: 1%;
-}
+} */
